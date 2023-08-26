@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7979778B2A98FC9A00AA4655 /* RODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7979778A2A98FC9A00AA4655 /* RODOTests.swift */; };
+		797977922A98FE2100AA4655 /* SearchResultsOutputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797977912A98FE2100AA4655 /* SearchResultsOutputData.swift */; };
+		797977942A9A5E0900AA4655 /* VehicleSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797977932A9A5E0900AA4655 /* VehicleSearchViewModel.swift */; };
+		797D53C42A96BA7900883A10 /* Exercise_Dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 797D53C32A96BA7900883A10 /* Exercise_Dataset.json */; };
+		797D53C62A96BA8800883A10 /* ReadJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53C52A96BA8800883A10 /* ReadJsonData.swift */; };
+		797D53CA2A96BDCB00883A10 /* RodoHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53C92A96BDCB00883A10 /* RodoHomePageViewController.swift */; };
+		797D53CD2A96F55000883A10 /* NKPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53CC2A96F55000883A10 /* NKPButton.swift */; };
+		797D53D02A96F5DF00883A10 /* UIViewController+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53CF2A96F5DF00883A10 /* UIViewController+Extentions.swift */; };
+		797D53D22A96F62600883A10 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53D12A96F62600883A10 /* String+Extention.swift */; };
+		797D53D42A96F66400883A10 /* NSObject+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53D32A96F66400883A10 /* NSObject+Extentions.swift */; };
+		797D53D62A96F6C600883A10 /* UIColor+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53D52A96F6C600883A10 /* UIColor+Extentions.swift */; };
+		797D53D82A96F93F00883A10 /* NKPSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D53D72A96F93F00883A10 /* NKPSearchBar.swift */; };
+		797D540A2A98186600883A10 /* NKPTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D54092A98186600883A10 /* NKPTabbarController.swift */; };
+		797D540E2A9821D800883A10 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D540D2A9821D800883A10 /* VehicleListViewController.swift */; };
+		797D54102A9822FB00883A10 /* VehicleListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797D540F2A9822FB00883A10 /* VehicleListCVCell.swift */; };
+		85BF36E62A75D6E10092181E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF36E52A75D6E10092181E /* AppDelegate.swift */; };
+		85BF36E82A75D6E10092181E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF36E72A75D6E10092181E /* SceneDelegate.swift */; };
+		85BF36ED2A75D6E10092181E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BF36EB2A75D6E10092181E /* Main.storyboard */; };
+		85BF36EF2A75D6E20092181E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BF36EE2A75D6E20092181E /* Assets.xcassets */; };
+		85BF36F22A75D6E20092181E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BF36F02A75D6E20092181E /* LaunchScreen.storyboard */; };
+		85BF36FF2A75D7120092181E /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF36FD2A75D7120092181E /* VehicleData.swift */; };
+		85BF37032A75D7210092181E /* VehiclleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF37012A75D7210092181E /* VehiclleListViewModel.swift */; };
+		85BF370E2A75D7640092181E /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF370B2A75D7640092181E /* UIView+Extentions.swift */; };
+		85BF37102A75D7640092181E /* NetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF370D2A75D7640092181E /* NetworkClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7979778C2A98FC9A00AA4655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85BF36DA2A75D6E10092181E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85BF36E12A75D6E10092181E;
+			remoteInfo = RODO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		797977882A98FC9A00AA4655 /* RODOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RODOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7979778A2A98FC9A00AA4655 /* RODOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RODOTests.swift; sourceTree = "<group>"; };
+		797977912A98FE2100AA4655 /* SearchResultsOutputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsOutputData.swift; sourceTree = "<group>"; };
+		797977932A9A5E0900AA4655 /* VehicleSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSearchViewModel.swift; sourceTree = "<group>"; };
+		797D53C32A96BA7900883A10 /* Exercise_Dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Exercise_Dataset.json; sourceTree = "<group>"; };
+		797D53C52A96BA8800883A10 /* ReadJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonData.swift; sourceTree = "<group>"; };
+		797D53C92A96BDCB00883A10 /* RodoHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodoHomePageViewController.swift; sourceTree = "<group>"; };
+		797D53CC2A96F55000883A10 /* NKPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPButton.swift; sourceTree = "<group>"; };
+		797D53CF2A96F5DF00883A10 /* UIViewController+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extentions.swift"; sourceTree = "<group>"; };
+		797D53D12A96F62600883A10 /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		797D53D32A96F66400883A10 /* NSObject+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extentions.swift"; sourceTree = "<group>"; };
+		797D53D52A96F6C600883A10 /* UIColor+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extentions.swift"; sourceTree = "<group>"; };
+		797D53D72A96F93F00883A10 /* NKPSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPSearchBar.swift; sourceTree = "<group>"; };
+		797D54092A98186600883A10 /* NKPTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPTabbarController.swift; sourceTree = "<group>"; };
+		797D540D2A9821D800883A10 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
+		797D540F2A9822FB00883A10 /* VehicleListCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleListCVCell.swift; sourceTree = "<group>"; };
+		85BF36E22A75D6E10092181E /* RODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BF36E52A75D6E10092181E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85BF36E72A75D6E10092181E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85BF36EC2A75D6E10092181E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85BF36EE2A75D6E20092181E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85BF36F12A75D6E20092181E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85BF36F32A75D6E20092181E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85BF36FD2A75D7120092181E /* VehicleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
+		85BF37012A75D7210092181E /* VehiclleListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclleListViewModel.swift; sourceTree = "<group>"; };
+		85BF370B2A75D7640092181E /* UIView+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
+		85BF370D2A75D7640092181E /* NetworkClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797977852A98FC9A00AA4655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BF36DF2A75D6E10092181E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797977892A98FC9A00AA4655 /* RODOTests */ = {
+			isa = PBXGroup;
+			children = (
+				7979778A2A98FC9A00AA4655 /* RODOTests.swift */,
+			);
+			path = RODOTests;
+			sourceTree = "<group>";
+		};
+		797D53CB2A96F54200883A10 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				797D53CC2A96F55000883A10 /* NKPButton.swift */,
+				797D53D72A96F93F00883A10 /* NKPSearchBar.swift */,
+				797D54092A98186600883A10 /* NKPTabbarController.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		797D53CE2A96F5B200883A10 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				85BF370B2A75D7640092181E /* UIView+Extentions.swift */,
+				797D53CF2A96F5DF00883A10 /* UIViewController+Extentions.swift */,
+				797D53D12A96F62600883A10 /* String+Extention.swift */,
+				797D53D32A96F66400883A10 /* NSObject+Extentions.swift */,
+				797D53D52A96F6C600883A10 /* UIColor+Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		85BF36D92A75D6E10092181E = {
+			isa = PBXGroup;
+			children = (
+				85BF36E42A75D6E10092181E /* RODO */,
+				797977892A98FC9A00AA4655 /* RODOTests */,
+				85BF36E32A75D6E10092181E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85BF36E32A75D6E10092181E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85BF36E22A75D6E10092181E /* RODO.app */,
+				797977882A98FC9A00AA4655 /* RODOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85BF36E42A75D6E10092181E /* RODO */ = {
+			isa = PBXGroup;
+			children = (
+				85BF36FB2A75D7050092181E /* Controller */,
+				85BF36FA2A75D6FD0092181E /* ViewModel */,
+				85BF36F92A75D6F70092181E /* Model */,
+				85BF36E52A75D6E10092181E /* AppDelegate.swift */,
+				85BF36E72A75D6E10092181E /* SceneDelegate.swift */,
+				85BF36EB2A75D6E10092181E /* Main.storyboard */,
+				85BF36EE2A75D6E20092181E /* Assets.xcassets */,
+				85BF36F02A75D6E20092181E /* LaunchScreen.storyboard */,
+				85BF36F32A75D6E20092181E /* Info.plist */,
+				85BF370A2A75D7640092181E /* Helpers */,
+			);
+			path = RODO;
+			sourceTree = "<group>";
+		};
+		85BF36F92A75D6F70092181E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85BF36FD2A75D7120092181E /* VehicleData.swift */,
+				797977912A98FE2100AA4655 /* SearchResultsOutputData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85BF36FA2A75D6FD0092181E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85BF37012A75D7210092181E /* VehiclleListViewModel.swift */,
+				797977932A9A5E0900AA4655 /* VehicleSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85BF36FB2A75D7050092181E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				797D540F2A9822FB00883A10 /* VehicleListCVCell.swift */,
+				797D53C92A96BDCB00883A10 /* RodoHomePageViewController.swift */,
+				797D540D2A9821D800883A10 /* VehicleListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85BF370A2A75D7640092181E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				797D53CE2A96F5B200883A10 /* Extentions */,
+				797D53CB2A96F54200883A10 /* Subclasses */,
+				797D53C32A96BA7900883A10 /* Exercise_Dataset.json */,
+				85BF370D2A75D7640092181E /* NetworkClass.swift */,
+				797D53C52A96BA8800883A10 /* ReadJsonData.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797977872A98FC9A00AA4655 /* RODOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797977902A98FC9A00AA4655 /* Build configuration list for PBXNativeTarget "RODOTests" */;
+			buildPhases = (
+				797977842A98FC9A00AA4655 /* Sources */,
+				797977852A98FC9A00AA4655 /* Frameworks */,
+				797977862A98FC9A00AA4655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7979778D2A98FC9A00AA4655 /* PBXTargetDependency */,
+			);
+			name = RODOTests;
+			productName = RODOTests;
+			productReference = 797977882A98FC9A00AA4655 /* RODOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85BF36E12A75D6E10092181E /* RODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BF36F62A75D6E20092181E /* Build configuration list for PBXNativeTarget "RODO" */;
+			buildPhases = (
+				85BF36DE2A75D6E10092181E /* Sources */,
+				85BF36DF2A75D6E10092181E /* Frameworks */,
+				85BF36E02A75D6E10092181E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RODO;
+			productName = "20230729-NP-NYCSchools";
+			productReference = 85BF36E22A75D6E10092181E /* RODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85BF36DA2A75D6E10092181E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					797977872A98FC9A00AA4655 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 85BF36E12A75D6E10092181E;
+					};
+					85BF36E12A75D6E10092181E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 85BF36DD2A75D6E10092181E /* Build configuration list for PBXProject "RODO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85BF36D92A75D6E10092181E;
+			productRefGroup = 85BF36E32A75D6E10092181E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85BF36E12A75D6E10092181E /* RODO */,
+				797977872A98FC9A00AA4655 /* RODOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797977862A98FC9A00AA4655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BF36E02A75D6E10092181E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BF36F22A75D6E20092181E /* LaunchScreen.storyboard in Resources */,
+				85BF36EF2A75D6E20092181E /* Assets.xcassets in Resources */,
+				797D53C42A96BA7900883A10 /* Exercise_Dataset.json in Resources */,
+				85BF36ED2A75D6E10092181E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797977842A98FC9A00AA4655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7979778B2A98FC9A00AA4655 /* RODOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BF36DE2A75D6E10092181E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BF37032A75D7210092181E /* VehiclleListViewModel.swift in Sources */,
+				85BF370E2A75D7640092181E /* UIView+Extentions.swift in Sources */,
+				797D54102A9822FB00883A10 /* VehicleListCVCell.swift in Sources */,
+				85BF36E62A75D6E10092181E /* AppDelegate.swift in Sources */,
+				85BF37102A75D7640092181E /* NetworkClass.swift in Sources */,
+				85BF36FF2A75D7120092181E /* VehicleData.swift in Sources */,
+				797D53D62A96F6C600883A10 /* UIColor+Extentions.swift in Sources */,
+				797D53CA2A96BDCB00883A10 /* RodoHomePageViewController.swift in Sources */,
+				797D53D42A96F66400883A10 /* NSObject+Extentions.swift in Sources */,
+				797D540A2A98186600883A10 /* NKPTabbarController.swift in Sources */,
+				797D53D02A96F5DF00883A10 /* UIViewController+Extentions.swift in Sources */,
+				797D540E2A9821D800883A10 /* VehicleListViewController.swift in Sources */,
+				797D53C62A96BA8800883A10 /* ReadJsonData.swift in Sources */,
+				797977942A9A5E0900AA4655 /* VehicleSearchViewModel.swift in Sources */,
+				85BF36E82A75D6E10092181E /* SceneDelegate.swift in Sources */,
+				797D53D22A96F62600883A10 /* String+Extention.swift in Sources */,
+				797D53CD2A96F55000883A10 /* NKPButton.swift in Sources */,
+				797977922A98FE2100AA4655 /* SearchResultsOutputData.swift in Sources */,
+				797D53D82A96F93F00883A10 /* NKPSearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7979778D2A98FC9A00AA4655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85BF36E12A75D6E10092181E /* RODO */;
+			targetProxy = 7979778C2A98FC9A00AA4655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85BF36EB2A75D6E10092181E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85BF36EC2A75D6E10092181E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85BF36F02A75D6E20092181E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85BF36F12A75D6E20092181E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7979778E2A98FC9A00AA4655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishit.RODOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RODO";
+			};
+			name = Debug;
+		};
+		7979778F2A98FC9A00AA4655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishit.RODOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RODO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RODO";
+			};
+			name = Release;
+		};
+		85BF36F42A75D6E20092181E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85BF36F52A75D6E20092181E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85BF36F72A75D6E20092181E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RODO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishit.rodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		85BF36F82A75D6E20092181E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RODO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishit.rodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797977902A98FC9A00AA4655 /* Build configuration list for PBXNativeTarget "RODOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7979778E2A98FC9A00AA4655 /* Debug */,
+				7979778F2A98FC9A00AA4655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BF36DD2A75D6E10092181E /* Build configuration list for PBXProject "RODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BF36F42A75D6E20092181E /* Debug */,
+				85BF36F52A75D6E20092181E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BF36F62A75D6E20092181E /* Build configuration list for PBXNativeTarget "RODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BF36F72A75D6E20092181E /* Debug */,
+				85BF36F82A75D6E20092181E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85BF36DA2A75D6E10092181E /* Project object */;
+}
